@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Carbon Snake</title>
+    <link link rel="icon" type="image/png" href="imagens/favicon.png">
+    <link rel="stylesheet" href="css/sgame.css">
+    <script defer src="js/main.js"></script>
+
+    <script>
+        function Alertar(){
+            alert("Bem vindo! Atenção! Se não estiver conseguindo jogar, diminua o zoom da tela e use as setinhas do teclado para mover a cobrinha. Bom jogo!");
+            
+        }
+    
+        Alertar();
+    
+    </script>
+
+</head>
+<body>
+ 
+    <h1 class="h1">Carbon Snake</h1>   
+    <center>
+    <p class="p">
+        Pontuação: <span id="score">0</span><br>
+        Recorde: <span id="highscore"></span>
+    </p>
+      
+
+    <table style="width:100%">
+        <tr>
+            <td style="width:10%;"> 
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <h3 style="background-color:#9cf79b">Atualmente, os veículos de transporte são responsáveis por 23% da emissão do CO2 no mundo inteiro.</h3>
+            </td>
+            <td style="width:10%">
+                <h3 style="background-color:#c596f8">Mais de 2.000 gigatoneladas de C02 já foram liberadas na atmosfera por causa de ações humanas.</h3>
+            </td>
+            <td style="width:10%;">
+                <h3 style="background-color:#9cf79b">Desde a Revolução Industrial, a queima de combustíveis fósseis é responsável por 2/3 das emissões.</h3>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </td>
+            <td style="width:5%">
+                <h1></h1>
+            </td>
+            <td style="width:30%">
+                <div class="canvas">
+                <canvas id="snake" width="512" height="512"></canvas>
+                </div>
+            </td>
+            <td style="width:5%">
+                <h1></h1>
+            </td>
+            <td style="width:10%;"> 
+                <h3 style="background-color:#c596f8">O oceano tem grande participação na remoção das emissões, ajuda a limpar o dióxido de carbono atmosférico.</h3>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </td>
+            <td style="width:10%">
+                <h3 style="background-color:#9cf79b">O regime de chuvas que conhecemos podem se intensificar, e alterar o clima de cada região.</h3>
+            </td>
+            <td style="width:10%;">
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <h3 style="background-color:#c596f8">Todo ano desmatamos uma área florestal de quase 30.000 km2, isso contribui muito para as mudanças climáticas.</h3>
+            </td>
+        </tr>
+    </table>
+    </center>
+    
+    <br><br><br><br>
+
+    <h2 class="h2">* Cada fruta corresponde a um comportamento que libera Dióxido de Carbono na atmosfera! Você não consegue fugir! Cuidado que uma hora você toca em si mesmo! </h2>
+
+    <button class="button" onclick="document.location='index.html'">Voltar</button>
+
+</body>
+</html>

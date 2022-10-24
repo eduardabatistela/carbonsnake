@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* ------------------------------------ */
+.button{
+    font-size: 12pt;
+    font-family:sans-serif black;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* ------------------------------------ */
+div#interface { /*interface*/
+    width:900px;
+    background-color:#c596f8;
+    margin:auto;
+    box-shadow:auto;
+    padding:0%;
+}
+/* ------------------------------------ */
+header#cabecalho h1 {
+    font-family: sans-serif black;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-shadow: 1px 1 px 1px rgba (0, 0, 0, .2);
+    margin-bottom: 10px;
+}
+/* ------------------------------------ */
+header#cabecalho h2 {
+    font-family: sans-serif black;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0px;
+    margin-top: 10px;
+}
+/* ------------------------------------ */
+body {
+    background-color: #E4F7E8;
+}
